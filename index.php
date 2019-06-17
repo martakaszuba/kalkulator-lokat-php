@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Kalkulator lokat - Marta Kaszuba</title>
 </head>
-
 <body>
     <h4>Kalkulator lokat bankowych</h4>
     <div id="main">
@@ -25,10 +24,8 @@
         </select>
     </p>
     <button id="btn" class="btn btn-info" name="submit">Oblicz</button>
-    <p id="result">
+    <p id="result">   
 <?php
-
-
 if (isset($_POST["submit"]) && isset($_POST["capital"]) && isset($_POST["years"]) 
 && isset($_POST["procent"]) && isset($_POST["capitalisation"])){
 
@@ -69,10 +66,8 @@ if (isset($_POST["submit"]) && isset($_POST["capital"]) && isset($_POST["years"]
     }
 }    
 ?>
-
     </p>
     </form>
 </div>
-
 </body>
 </html>
